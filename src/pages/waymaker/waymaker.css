@@ -1,0 +1,153 @@
+/* General styles */
+body {
+    background-color: #F0F8FF; /* Light blue background */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark text for better readability */
+
+    h1, h2 {
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    align-items: center; /* Vertically centers content */
+    justify-content: space-between; /* Space between logo and menu */
+    background-color: #6CB4EE;
+    padding: 0 20px; /* Adds spacing around navbar */
+}
+
+.logo img {
+    height: 50px; /* Adjust the size of the logo */
+    width: auto;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centers the menu items */
+    flex: 1; /* Takes up the remaining space */
+}
+
+.nav-menu > li {
+    position: relative;
+}
+
+.nav-menu > li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-menu > li a:hover {
+    background-color: #6CB4EE;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #6CB4EE;
+    min-width: 160px;
+    z-index: 1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+}
+
+.dropdown-menu > li a {
+    padding: 10px 20px;
+    color: #ffff;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu > li a:hover {
+    background-color: #575757;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+/* Main content styles */
+.project-overview {
+    max-width: 900px;
+    margin: 50px auto; /* Center the content and add spacing from the navbar */
+    background-color: #E6F7FF; /* Subtle light blue for the card background */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center;
+}
+
+.project-overview h1 {
+    font-size: 2.5rem;
+    color: #2C6EBE; /* Darker blue for headings */
+    margin-bottom: 20px;
+}
+
+.project-overview p {
+    font-size: 1.2rem;
+    color: #555; /* Slightly darker text for readability */
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.project-overview ul {
+    list-style-type: disc;
+    margin: 20px 0;
+    padding: 0 20px; /* Add padding for better spacing */
+    text-align: left;
+}
+
+.project-overview li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Media Section */
+.project-overview img, .project-overview video {
+    max-width: 90%; /* Ensure responsiveness */
+    margin: 20px auto; /* Add spacing */
+    display: block; /* Center media */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add depth */
+}
+
+/* Video styling */
+.project-video-container {
+    text-align: center; /* Center the video container */
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #E6F7FF; /* Light background for better contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-video-header {
+    font-size: 1.2rem;
+    color: #2C6EBE;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Footer remains unchanged */
+
+/* Footer styles */
+footer {
+    background-color: #87CEFA; /* Match navbar color */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    margin-top: 50px;
+}

@@ -1,0 +1,91 @@
+/*This foile is styling for the header and footer components used on all pages. All classes below pertain to the header and footer components.*/a
+
+/* General styles */
+body {
+    background-color: #F0F8FF; /* Light blue background */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark text for better readability */
+
+    h1, h2 {
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    align-items: center; /* Vertically centers content */
+    justify-content: space-between; /* Space between logo and menu */
+    background-color: #6CB4EE;
+    padding: 0 20px; /* Adds spacing around navbar */
+}
+
+.logo img {
+    height: 50px; /* Adjust the size of the logo */
+    width: auto;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centers the menu items */
+    flex: 1; /* Takes up the remaining space */
+}
+
+.nav-menu > li {
+    position: relative;
+}
+
+.nav-menu > li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-menu > li a:hover {
+    background-color: #6CB4EE;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #6CB4EE;
+    min-width: 160px;
+    z-index: 1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+}
+
+.dropdown-menu > li a {
+    padding: 10px 20px;
+    color: #ffff;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu > li a:hover {
+    background-color: #575757;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #87CEFA;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    margin-top: 50px;
+}

@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+    background-color: #F0F8FF;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+
+    h1, h2 {
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+/* Donate Section */
+.donate-section {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.donate-section h1 {
+    font-size: 2.5rem;
+    color: #2C6EBE;
+    margin-bottom: 20px;
+}
+
+.donate-section p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Donation Options */
+.donate-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.donate-info {
+    flex: 1;
+    min-width: 300px;
+    background-color: #E6F7FF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.donation-form {
+    flex: 1;
+    min-width: 300px;
+    background-color: #E6F7FF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.donation-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2C6EBE;
+}
+
+.donation-form input,
+.donation-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.donation-form input:focus,
+.donation-form textarea:focus {
+    border-color: #2C6EBE;
+    outline: none;
+}
+
+.donate-button {
+    background-color: #6CB4EE;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.donate-button:hover {
+    background-color: #2C6EBE;
+    transform: translateY(-3px);
+}
+
+/* Other Options */
+.other-options {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.other-options ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.other-options li {
+    margin-bottom: 15px;
+}
+
+.other-options a {
+    color: #2C6EBE;
+    text-decoration: none;
+}
+
+.other-options a:hover {
+    text-decoration: underline;
+}
+
+.webstore-section {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .webstore-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .webstore-link:hover {
+    background-color: #0056b3;
+  }
